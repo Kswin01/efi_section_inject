@@ -1,0 +1,9 @@
+[package]
+name = "pe_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pe-parser = "0.6.0"
+goblin = { git = "https://github.com/RaitoBezarius/goblin", branch = "preps-for-ifrit-1" }
+ifrit = { git = "https://github.com/RaitoBezarius/ifrit.git" }
